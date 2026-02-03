@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apeksha Mishra | Web Developer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1, h2 {
+      color: #38bdf8;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 1.2em;
+      color: #94a3b8;
+      margin-bottom: 30px;
+    }
+    .card {
+      background: #020617;
+      padding: 25px;
+      margin: 20px 0;
+      border-radius: 10px;
+      border: 1px solid #1e293b;
+    }
+    .card h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 10px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .skill-item {
+      background: #1e293b;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .skill-item:hover {
+      transform: translateY(-3px);
+      background: #334155;
+    }
+    .project-item {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .project-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    .project-item h3 {
+      color: #22d3ee;
+      margin-bottom: 8px;
+    }
+    .tech-stack {
+      color: #94a3b8;
+      font-size: 0.9em;
+      margin-top: 8px;
+    }
+    a {
+      color: #22d3ee;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #38bdf8;
+    }
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .achievement-item {
+      margin-bottom: 15px;
+    }
+    .achievement-item h3 {
+      color: #22d3ee;
+      margin-bottom: 5px;
+      font-size: 1.1em;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      opacity: 0.6;
+      border-top: 1px solid #1e293b;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    @media (max-width: 768px) {
+      .container {
+        width: 90%;
+      }
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>👋 Hi, I'm Apeksha Mishra</h1>
+    <p class="subtitle">💻 BCA Graduate | Web Developer | Problem Solver</p>
+    
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        Motivated BCA graduate with strong problem-solving and web development skills. 
+        Experienced in building interactive web applications, chatbots, and digital platforms. 
+        Eager to contribute technical knowledge and grow in a dynamic professional environment.
+      </p>
+      <p>
+        <strong>Education:</strong> Bachelor of Computer Application (BCA) - 75.14%<br>
+        Axis Institute of Higher Education, Kanpur | C.S.J.M. University
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">C</div>
+        <div class="skill-item">C++</div>
+        <div class="skill-item">Python</div>
+        <div class="skill-item">Java</div>
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">Flask</div>
+        <div class="skill-item">Git</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Projects</h2>
+      
+      <div class="project-item">
+        <h3>Digital Library (BCA-VERSE)</h3>
+        <p>
+          Collaborating on a digital library platform providing 24/7 access to e-books, 
+          lecture notes, syllabus, and study materials, enhancing resource availability for students.
+        </p>
+        <p class="tech-stack"><strong>Year:</strong> 2025</p>
+      </div>
+
+      <div class="project-item">
+        <h3>Chatbot (Flask + HTML/JS)</h3>
+        <p>
+          Built a chatbot application supporting text and voice-based interaction using 
+          Flask framework and DialoGPT AI model.
+        </p>
+        <p class="tech-stack"><strong>Tech Stack:</strong> Flask, HTML, CSS, JavaScript, DialoGPT (AI model)</p>
+        <p class="tech-stack"><strong>Year:</strong> 2024</p>
+      </div>
+
+      <div class="project-item">
+        <h3>Our Love Gallery</h3>
+        <p>
+          Mini creative project showcasing interactive web design and development skills.
+        </p>
+        <p class="tech-stack"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+        <p class="tech-stack"><strong>Year:</strong> 2024</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Experience</h2>
+      <div class="achievement-item">
+        <h3>Tech Intern - IBM</h3>
+        <p><strong>Duration:</strong> May 2024 - August 2024</p>
+        <ul>
+          <li>Completed a 3-week internship in Emerging Technologies (AI & Cloud) leveraging IBM SkillsBuild & IBM Cloud Platform</li>
+          <li>Gained hands-on experience with AI, Cloud, and modern development tools</li>
+          <li>Worked on real-world problem statements to enhance technical and collaborative skills</li>
+          <li><strong>Tools & Technologies:</strong> IBM Cloud, AI/ML Concepts, Git</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Achievements</h2>
+      
+      <div class="achievement-item">
+        <h3>🏆 Code Smart with Python - 1st Position</h3>
+        <p>Secured 1st position in Code Smart with Python competition organized by Axis Colleges, Kanpur (2024)</p>
+      </div>
+
+      <div class="achievement-item">
+        <h3>🎯 100% Attendance Award</h3>
+        <p>Awarded Attendance Appreciation Certificate for maintaining 100% attendance during BCA 1st year, among the top 300 successful candidates</p>
+      </div>
+
+      <div class="achievement-item">
+        <h3>⭐ Certificate of Skill Mastery (Top Performer)</h3>
+        <p>Crack-Ed Skill Bridge - awarded for active engagement, professional growth & networking. Recognized as Top Performer demonstrating leadership and teamwork (2024)</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Leadership & Responsibilities</h2>
+      <ul>
+        <li><strong>Class Representative of BCA Sec A</strong> (June 2023 - November 2025) - Coordinated academic activities and maintained discipline</li>
+        <li><strong>Cultural Committee – Freshers FrinZ</strong> (December 2024) - Coordinated Dance club activities</li>
+        <li><strong>Discipline Coordinator</strong> - BCA Department in Code Smart with Python (November 2024)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Soft Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">Communication</div>
+        <div class="skill-item">Leadership</div>
+        <div class="skill-item">Problem Solving</div>
+        <div class="skill-item">Adaptability</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Resume</h2>
+      <a href="#" target="_blank">📄 Download Full Resume</a>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <span>📧 Email:</span>
+          <a href="mailto:apekshamishra89@gmail.com">apekshamishra89@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span>📱 Phone:</span>
+          <a href="tel:+919555731083">+91 9555731083</a>
+        </div>
+        <div class="contact-item">
+          <span>📍 Location:</span>
+          <span>Kanpur, Uttar Pradesh, India</span>
+        </div>
+        <div class="contact-item">
+          <span>💼 LinkedIn:</span>
+          <a href="https://linkedin.com/in/apeksha-mishra" target="_blank">linkedin.com/in/apeksha-mishra</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 Apeksha Mishra | BCA Graduate | Web Developer
+    </footer>
+  </div>
+</body>
+</html>
